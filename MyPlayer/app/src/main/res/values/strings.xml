@@ -1,0 +1,31 @@
+<resources>
+	<string name="app_name">MyPlayer</string>
+
+	<string name="DataBaseName">WH_Player</string>
+	<string name="DataBaseName_Version">1</string>
+
+	<string name="sdcard_missing_title">No SD card</string>
+	<!-- Title of screen when no sd card is present -->
+	<string name="sdcard_missing_title_nosdcard">No USB storage</string>
+	<!-- label underneath icon used to indicate that no sd card is present -->
+	<string name="sdcard_missing_message">Your phone doesn\'t have an SD card inserted.</string>
+	<!-- label underneath icon used to indicate that no sd card is present -->
+	<string name="sdcard_missing_message_nosdcard">Your phone doesn\'t have USB storage.</string>
+	<!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+	<string name="sdcard_busy_title">SD card unavailable</string>
+	<!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+	<string name="sdcard_busy_title_nosdcard">USB storage unavailable</string>
+	<!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+	<string name="sdcard_busy_message">Your SD card is busy.</string>
+	<!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+	<string name="sdcard_busy_message_nosdcard">Your USB storage is busy.</string>
+
+	<string name="sdcard_error_title">SD card error</string>
+	<!-- Title of screen when there was an error accessing the sd card -->
+	<string name="sdcard_error_title_nosdcard">USB storage error</string>
+	<!-- label underneath icon used to indicate there was an error accessing the sd card -->
+	<string name="sdcard_error_message">An error was encountered on your SD card.</string>
+	<!-- label underneath icon used to indicate there was an error accessing the sd card -->
+	<string name="sdcard_error_message_nosdcard">An error was encountered on your USB storage.</string>
+
+</resources>

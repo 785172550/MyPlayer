@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  xmlns:playpauseview="http://schemas.android.com/apk/res-auto">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize">
+		<!-- fragment 隐藏显示的bar -->
+		<include
+			android:id="@+id/slidepanelchildtwo_topviewone"
+			layout="@layout/include_slidepanelchildtwo_topviewone"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"/>
+		<!-- fragment 显示时的bar-->
+		<include
+			android:id="@+id/slidepanelchildtwo_topviewtwo"
+			layout="@layout/include_slidepanelchildtwo_topviewtwo"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:visibility="invisible"/>
+	</RelativeLayout>
+
+
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ImageView
+			android:id="@+id/image_songAlbumbg_mid"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="centerCrop"
+			android:src="@drawable/drawer_header"
+			android:visibility="visible"/>
+		<include
+			android:id="@+id/bottom_palyLayout"
+			layout="@layout/include_slidepanelchildtwo_bottomview"
+			android:layout_width="match_parent"
+			android:layout_height="150dp"
+			android:layout_alignParentBottom="true"
+			android:gravity="center_vertical"
+			android:orientation="vertical" />
+	</RelativeLayout>
+
+
+</LinearLayout>

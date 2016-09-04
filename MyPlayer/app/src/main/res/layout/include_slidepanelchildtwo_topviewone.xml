@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="@color/blue"
+				android:orientation="vertical"
+				xmlns:playpauseview="http://schemas.android.com/apk/res-auto"
+				>
+	<ImageView
+		android:id="@+id/img_bottom_slideone"
+		android:layout_width="?attr/actionBarSize"
+		android:layout_height="?attr/actionBarSize"
+		android:scaleType="centerCrop"
+		android:src="@drawable/bg_default_album_art"/>
+
+	<TextView
+		android:id="@+id/song_name1"
+		android:layout_toRightOf="@id/img_bottom_slideone"
+		android:layout_marginLeft="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:textColor="@color/white"
+		android:text="歌曲名"
+		/>
+
+	<ui.PlayPauseView
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:id="@+id/bottombar_play"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_centerInParent="true"
+		android:clickable="true"
+		android:foreground="?android:selectableItemBackground"
+		android:stateListAnimator="@drawable/button_elevation"
+		playpauseview:isCircleDraw="true" />
+
+</RelativeLayout>

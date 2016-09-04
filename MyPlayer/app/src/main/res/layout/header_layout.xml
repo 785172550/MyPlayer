@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="@color/blue"
+				android:gravity="center"
+	>
+
+	<ImageView
+		android:id="@+id/head_left"
+		android:layout_width="45dp"
+		android:layout_height="45dp"
+		android:layout_alignParentStart="true"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/actionbar_slide"
+		/>
+
+	<TextView
+		android:id="@+id/head_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:gravity="center"
+		android:text="所有歌曲"
+		android:textSize="20sp"/>
+
+	<ImageView
+		android:id="@+id/head_right"
+		android:layout_width="45dp"
+		android:layout_height="45dp"
+		android:layout_alignParentEnd="true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="10dp"
+		android:text="right"
+		android:visibility="invisible"/>
+</RelativeLayout>
